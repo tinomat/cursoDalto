@@ -1,0 +1,160 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: #222;
+    font-family: sans-serif;
+    margin: 3rem 1rem;
+    text-align: center;
+}
+.text {
+    margin: 20px;
+}
+.reloj {
+    background: linear-gradient(to top, #6686d1, #aca9a9);
+    border: 2px solid #000;
+    border-radius: 1rem;
+    display: inline-flex;
+}
+.reloj div {
+    color: #000000;
+    padding: 5px 9px;
+    font-family: monospace;
+    font-size: 3rem;
+}
+.modal-overlay {
+    background: #0006;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: aparecer 0.5s forwards;
+}
+.modal {
+    background: #fff;
+    margin: 30px;
+    padding: 20px;
+}
+button {
+    padding: 9px;
+    border: none;
+    margin: 6px;
+    cursor: pointer;
+    border-radius: 0.4rem;
+}
+button:hover {
+    background: #ccc;
+}
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes desaparecer {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+.rectangulo {
+    padding: 100px 200px;
+    background: #ccc;
+    margin: 50px;
+    outline: 4px dashed #aca9a9;
+}
+.circulo {
+    border-radius: 50%;
+    padding: 40px;
+    margin: 10px;
+    background: #f00;
+    display: inline-block;
+}
+.texturas {
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    display: flex;
+    user-select: none;
+}
+.texturas div {
+    width: 100%;
+    height: 50px;
+    margin: 6px;
+    user-select: all;
+}
+.textura1 {
+    background: url(textura1.jpg);
+}
+.textura2 {
+    background: url(textura2.jpg);
+}
+.textura3 {
+    background: url(textura3.jpg);
+}
+.zona {
+    margin: 10px;
+    background: #003;
+    height: 100px;
+}
+.resultado img {
+    width: 100px;
+} */
+/* .caja,
+.responsive-caja {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    background: #48e;
+    font-size: 40px;
+    color: #fff;
+} */
+/* .caja span,
+.responsive-caja span {
+    margin: auto;
+} */
+/* .responsive-caja {
+    width: 100%;
+    background: #333;
+} */
+
+/* .caja {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    margin: 20px auto;
+    background: #48e;
+    border: 4px dashed #248;
+    color: #fff;
+    font-size: 1.6rem;
+}
+.caja span {
+    margin: auto;
+}
+.caja:nth-child(2) {
+    background: #e48;
+    border-color: #824;
+}
+.caja:nth-child(3) {
+    background: #4e8;
+    border-color: #284;
+}
+.caja:nth-child(4) {
+    background: #777;
+    border-color: #444;
+} */
+/* body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+} */

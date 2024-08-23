@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>indexedDB&draganddrop</title>
+    </head>
+    <body>
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                font-family: sans-serif;
+                text-align: center;
+            }
+            .nombres {
+                margin: 40px;
+            }
+            .nombre {
+                display: grid;
+                grid-template-columns: minmax(100px, 300px) 1fr;
+                border-top: 1px solid #48e;
+            }
+            .options {
+                display: flex;
+                width: 100%;
+                justify-content: end;
+            }
+            .options button {
+                background: transparent;
+                border: none;
+                margin: 4px 10px;
+                outline: none;
+            }
+            .delete:hover {
+                color: #999;
+            }
+            .imposible {
+                color: #ccc;
+            }
+            .posible {
+                color: #37d;
+            }
+            .posible:hover {
+                color: #6af;
+            }
+            .nombre h2 {
+                padding: 6px;
+                color: #48e;
+            }
+            .add-nombres {
+                margin-top: 40px;
+            }
+            #name,
+            #add {
+                padding: 4px 8px;
+            }
+        </style>
+        <div class="add-nombres">
+            <input type="text" id="name" placeholder="introduce un nombre" />
+            <button id="add">Añadir</button>
+        </div>
+        <div class="nombres"></div>
+        <script defer src="index.js"></script>
+    </body>
+</html>
